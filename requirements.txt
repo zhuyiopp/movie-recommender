@@ -1,6 +1,3 @@
-name: venv-m
-channels:
-  - defaults
 dependencies:
   - blas=1.0=mkl
   - bottleneck=1.3.5=py310h4e76f89_0
@@ -52,4 +49,3 @@ dependencies:
   - zlib=1.2.12=h4dc903c_3
   - pip:
     - thefuzz==0.19.0
-prefix: /opt/anaconda3/envs/venv-m
