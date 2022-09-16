@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="static/css/style.css">
+  <title>the best movie recommending system</title>
+</head>
+
+<body>
+  <center>
+    <div class = myDiv>
+    <h1 style="background-color: white; color: blue;">{{title}}</h1>
+    </div>
+  </center>
+
+  <div class = secDiv>
+  <p>
+    <b>Enjoy these wonderful movies:</b>
+  </p>
+  <ul style="text-align: left">
+    {% for f in movies.index %}
+        <li> {{f}} <a href= {{imdb[f]}}> <b>imDb</b> </a></li></br>
+    {% endfor %}
+  </ul>
+  <p> Click <a href="/"> <b>here</b> </a> to go back to the homepage</p>
+  </div>
+</body>
+
+</html>

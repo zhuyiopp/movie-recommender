@@ -1,0 +1,45 @@
+
+label{
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+        /* font-weight: bold; */
+    }
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: blue;
+    border: 4px solid blue;
+    color: white;
+    padding: 6px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    }
+
+.myDiv {
+  border: 5px outset silver;
+  background-color: lightgrey;    
+  text-align: center;
+  border-radius: 8px;
+}
+
+.secDiv {
+  border: 5px outset silver;
+  background-color: lightgrey;    
+  text-align: left;
+  border-radius: 8px;
+}
+
+div.parent {
+	text-align: center;
+    border: 5px outset silver;
+    background-color: lightgrey;    
+    border-radius: 8px;
+	}
+ul { 
+	display: inline-block; 
+	text-align: left; 
+	}
+

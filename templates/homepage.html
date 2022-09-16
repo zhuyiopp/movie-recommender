@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="static/css/style.css">
+  <title>the best movie recommending system</title>
+</head>
+
+<img style="max-width:10%;float:right" src="static/images/films.png">
+
+
+<body>
+  <center>
+    <div class = myDiv>
+    <h1 style="background-color: white; color: blueviolet;"> {{ title }} </h1>  </div>
+  </center>
+
+  <form action = '/rec1'>
+    <div class = myDiv>
+    <p>
+        <b>Please enter your user ID, if you are a registed user:</b>
+    </p>
+    UserID:
+    <input type = 'text', pattern="\d*", name="user_id">
+    <input type = "submit" > </div>
+  </form>
+
+  <form action = '/rec2'>
+    <div class = myDiv>
+    <p>
+        <b> Please rate the movies on a scale of 0-5 if you are a new user:</b> (Refresh the page to change the movies bellow.)
+    </p> 
+    
+    {% for f in movies %}
+    <label>{{f}}:</label>
+        <input type = 'text', name={{movies[f]}}, placeholder="0-5"><br> 
+    <!-- {{f}}:
+        <input type = 'text', name={{movies[f]}}, placeholder="0-5"><br> -->
+    {% endfor %}
+    <input type = "submit" > 
+    </div>
+  </form>
+
+  <form action = '/rec3'>
+    <div class = myDiv>
+    <p>
+        <b> You can try another recommender by rating the movies on a scale of 0-5 bellow:</b> (Refresh the page to change the movies bellow.)
+    </p>     
+    {% for f in movies %}
+    <label>{{f}}:</label>
+        <input type = 'text', name={{movies[f]}}, placeholder="0-5"><br>
+    {% endfor %}
+    <input type = "submit" > </div>
+  </form>
+
+<!-- <p> Click <a href="/rec1"> <b>here</b> </a> to the recommendation system</p> -->   
+</body>
+
+</html>
