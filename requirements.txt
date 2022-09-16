@@ -2,7 +2,7 @@ Bottleneck @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs
 certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_83242e7e-f82d-4a71-8ef2-9d71d212d249gu_wxmeq/croots/recipe/certifi_1655968827803/work/certifi
 click @ file:///opt/concourse/worker/volumes/live/2d66025a-4d79-47c4-43be-6220928b6c82/volume/click_1646056610594/work
 Flask @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_8am4k38yjk/croots/recipe/flask_1658870771936/work
-gunicorn==20.1.0
+gunicorn @ file:///Users/builder/ci_310/gunicorn_1642504456862/work
 itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
 Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
 joblib @ file:///tmp/build/80754af9/joblib_1635411271373/work
@@ -20,6 +20,5 @@ pytz @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1caf0
 scikit-learn @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1baff183-d525-4b50-b7da-d81be42a33b724ic9ktb/croots/recipe/scikit-learn_1658419416041/work
 scipy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_595zrwl1it/croots/recipe/scipy_1661390418356/work
 six @ file:///tmp/build/80754af9/six_1644875935023/work
-thefuzz==0.19.0
 threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
 Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
