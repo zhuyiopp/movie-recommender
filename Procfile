@@ -1,1 +1,1 @@
- web: gunicorn movie-recommender:app --chdir movie-recommender
+ web: gunicorn app:app
